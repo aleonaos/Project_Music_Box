@@ -1,0 +1,36 @@
+.pricing {
+  padding-top: 100px;
+  grid-column-gap: 50px;
+}
+
+.pricing h2 {
+  margin-bottom: 46px;
+}
+
+.pricing-item {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0 1.5rem;
+  border-radius: 1.5rem;
+}
+
+.pricing-value {
+  margin: 0;
+  margin-top: 200px;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.pricing-value span {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 16px;
+  font-size: 64px;
+  line-height: 1em;
+}
+
+.bg-transpatent {
+  background: none;
+}
+/*# sourceMappingURL=pricing.css.map */

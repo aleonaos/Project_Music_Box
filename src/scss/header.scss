@@ -1,0 +1,67 @@
+.flex {
+  @extend %flex-container;
+}
+header {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  left: 0;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  span {
+    @extend %header-text;
+    box-sizing: border-box;
+  }
+  nav {
+    max-width: 324px;
+    margin-right: 421px;
+    margin-bottom: 16px;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    @extend %header-text;
+    li {
+      display: block;
+      &:not(:last-child) {
+        margin-right: 24px;
+        box-sizing: border-box;
+      }
+    }
+  }
+  a {
+    color: $gray;
+    text-decoration: none;
+  }
+  input {
+    flex-grow: 1;
+    width: 228px;
+    padding: 5px 10px;
+
+    text-transform: uppercase;
+
+    background-color: $dark-gray;
+    border-radius: 50px;
+    border: none;
+  }
+}
+
+.logo {
+  @extend %flex-container;
+  width: 103px;
+  margin-right: 85px;
+  margin-bottom: 17px;
+  img {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px; 
+  } 
+}
+
+.hidden {
+  display: none;
+}

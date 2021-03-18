@@ -17,7 +17,7 @@
         <nav>
             <ul>
                 <li><a href="#page-description">Главная</a></li>
-                <li><a href="#main">Каталог</a></li>
+                <li><a href="#page-pricing">Каталог</a></li>
                 <li><a href="#main">Исполнители</a></li>
                 <li><a href="#main">Контакты</a></li>
             </ul>
@@ -26,7 +26,7 @@
             <input id="search" type="text" name="search" placeholder="Поиск...">
     </header>
     <main>
-        <section id="page-description" class="main-section">
+        <section id="page-description" class="main-section flex">
             <h1 class="center">Онлайн музыка где угодно</h1>
             <h2 class="center">Без ограничений</h2>
             <p>Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
@@ -39,5 +39,29 @@
             </form>
         </section>
     </main>
+    <section id="page-pricing" class="pricing">
+        <h2>Формы подписки</h2>
+        <div class="flex">
+            <div class="pricing-item bg-free">
+                <h3>Бесплатная</h3>
+                <p class="pricing-value"><span>0</span> руб.</p>
+                <button class="btn"><a href="#" class="subscribe">Оформить</a></button>
+                <p class="item-footer">Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутствует реклама</p>
+            </div>
+            <div class="pricing-item bg-standard">
+                <h3>Стандартная</h3>
+                <p class="pricing-value"><span>250</span> руб.</p>
+                <button class="btn"><a href="#" class="subscribe">Оформить</a></button>
+                <p class="item-footer">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в среднем качестве</p>
+            </div>
+            <div class="pricing-item bg-premium">
+                <h3>Премиум</h3>
+                <p class="pricing-value"><span>500</span> руб.</p>
+                <button class="btn"><a href="#" class="subscribe">Оформить</a></button>
+                <p class="item-footer">Оплата в месяц. Премиум тариф предоставляет доступ ко всей коллекции музыки в высоком качестве</p>
+            </div>
+        </div>
+        <p class="pricing-footer">На всех тарифах возможно прослушивание музыки с мобильных устройств. На премиум тарифе вы можете скачать все композиции на ваше устройство и слушать музыку без подключения к интернету</p>
+    </section>
 </body>
 </html>

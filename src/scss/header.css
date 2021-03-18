@@ -1,0 +1,20 @@
+header {
+  position: absolute;
+  top: 25px;
+  width: 1200px;
+}
+
+header span {
+  font-size: 11px;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+/*# sourceMappingURL=header.css.map */

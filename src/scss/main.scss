@@ -1,0 +1,53 @@
+main {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+}
+.main-section {
+  padding: 200px 0;
+
+  p{
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    padding: 0 20px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  form {
+    max-width: 570px;
+    margin: 0 auto;
+    padding: 0 20px;
+    grid-column-gap: 24px;
+    
+    input {
+      flex-grow: 1;
+      min-width: 246px;
+      min-height: 50px;
+      margin-bottom: 1.5rem;
+      padding: 0;
+      padding-left: 20px;
+      color: #fff;
+      font-size: 14px;
+      line-height: 16px;
+      background: none;
+      border: 2px solid $gray;
+      border-radius: 3px;
+    }
+    button {
+      flex: 2 1 246px;
+      height: 57px;
+      padding: 20px 30px;
+      color: #fff;
+      text-transform: uppercase;
+      background: $green;
+      border-radius: 5px;
+    }
+  }
+}
+.center {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 0 20px;
+}
