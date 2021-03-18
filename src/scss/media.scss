@@ -1,0 +1,30 @@
+@media screen and (max-width: 1240px) {
+  h1 {
+    font-size: $size-h1;
+  }
+  h2 {
+    font-size: $size-h2;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  h1 {
+    font-size: $size-h1 / 2;
+  }
+  h2 {
+    font-size: $size-h2 / 2;
+  }
+  
+  section {
+    margin: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .main-section {
+    padding-top: 250px;
+    
+    p{
+      margin-top: 16px;
+    }
+  }
+}

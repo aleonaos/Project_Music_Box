@@ -6,9 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Портал «Music Box» alyonaosotova</title>
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-    
+    <header class="flex">
+        <div class="logo">
+            <img src="images/logo.svg" alt="Логотип">
+            <span>Music Box</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#page-description">Главная</a></li>
+                <li><a href="#main">Каталог</a></li>
+                <li><a href="#main">Исполнители</a></li>
+                <li><a href="#main">Контакты</a></li>
+            </ul>
+        </nav>
+            <label for ="search" class="hidden">Поиск</label>
+            <input id="search" type="text" name="search" placeholder="Поиск...">
+    </header>
+    <main>
+        <section id="page-description" class="main-section">
+            <h1 class="center">Онлайн музыка где угодно</h1>
+            <h2 class="center">Без ограничений</h2>
+            <p>Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+            <form class="flex">
+                <label for="name" class="hidden"></label>
+                <input id="name" type="text" name="name" placeholder="Имя">
+                <label for="email" class="hidden"></label>
+                <input id="email" type="email" name="email" placeholder="Email">
+                <button type="submit">Получить доступ</button>
+            </form>
+        </section>
+    </main> 
 </body>
 </html>
