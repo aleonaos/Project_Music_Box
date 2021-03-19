@@ -4,21 +4,19 @@ main {
   background-size: cover;
 }
 .main-section {
-  padding: 200px 0;
+  padding-top: 200px;
+  padding-bottom: 200px;
 
   p{
     margin: 0 auto;
     margin-top: 32px;
     margin-bottom: 16px;
-    padding: 0 20px;
-    font-size: 16px;
     text-align: center;
   }
 
   form {
     max-width: 570px;
     margin: 0 auto;
-    padding: 0 20px;
     grid-column-gap: 24px;
     
     input {
@@ -49,5 +47,4 @@ main {
 .center {
   width: 100vw;
   margin: 0 auto;
-  padding: 0 20px;
 }

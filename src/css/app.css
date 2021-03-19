@@ -7,9 +7,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 h1, h2, h3 {
@@ -73,10 +73,21 @@ header,
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 li {
   list-style: none;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+}
+
+span {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 header {
@@ -84,13 +95,17 @@ header {
   top: 25px;
   right: 0;
   left: 0;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
-header span {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 header nav {
@@ -162,22 +177,20 @@ main {
 }
 
 .main-section {
-  padding: 200px 0;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .main-section p {
   margin: 0 auto;
   margin-top: 32px;
   margin-bottom: 16px;
-  padding: 0 20px;
-  font-size: 16px;
   text-align: center;
 }
 
 .main-section form {
   max-width: 570px;
   margin: 0 auto;
-  padding: 0 20px;
   grid-column-gap: 24px;
 }
 
@@ -213,7 +226,6 @@ main {
 .center {
   width: 100vw;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 .pricing {
@@ -237,8 +249,6 @@ main {
 }
 
 .pricing-footer {
-  margin: 0;
-  font-size: 16px;
   text-align: center;
 }
 
@@ -282,14 +292,14 @@ main {
           flex: 2 1 318px;
   margin-top: 24px;
   margin-bottom: 64px;
-  padding: 21px  115px;
+  padding: 21px 115px;
   text-transform: uppercase;
   background: none;
   border: 1px solid #cacaca;
   border-radius: 5px;
 }
 
-.subscribe {
+.more {
   color: #cacaca;
   font-size: 16px;
   line-height: 1.5;
@@ -304,21 +314,85 @@ main {
   text-align: center;
 }
 
-@media screen and (max-width: 1240px) {
+.news {
+  padding-top: 100px;
+}
+
+.news-item {
+  grid-column-gap: 50px;
+  padding-top: 48px;
+}
+
+.news-item-image {
+  min-width: 374px;
+}
+
+.news-item-block {
+  width: 575px;
+}
+
+.news-header {
+  margin-bottom: 30px;
+  font-size: 30px;
+  line-height: 1.5;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.news-author {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  grid-column-gap: 16px;
+  margin-bottom: 24px;
+}
+
+.name-author {
+  color: #f89202;
+}
+
+.small-text {
+  font-size: 12.8px;
+}
+
+.news-footer {
+  margin-top: 24px;
+}
+
+.pad-16-30 {
+  margin-bottom: 0;
+  padding: 16px 30px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 1240px) {
   h1 {
     font-size: 60px;
   }
   h2 {
     font-size: 38px;
   }
+  .right-place {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 1239px) {
   h1 {
     font-size: 30px;
   }
   h2 {
-    font-size: 19px;
+    font-size: 18px;
+  }
+  h3,
+  .news-header {
+    font-size: 16px;
+    margin-bottom: 16px;
   }
   section {
     margin: 0;
@@ -328,8 +402,19 @@ main {
   .main-section {
     padding-top: 250px;
   }
-  .main-section p {
+  .news-item {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  p {
     margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  nav {
+    margin-right: 0;
   }
 }
 /*# sourceMappingURL=app.css.map */

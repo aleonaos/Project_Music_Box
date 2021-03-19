@@ -46,8 +46,21 @@ header,
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 li {
   list-style: none;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+}
+span {
+  box-sizing: border-box;
+}
+
+.flex {
+  @extend %flex-container;
 }

@@ -1,0 +1,51 @@
+.news {
+  padding-top: 100px;
+}
+
+.news-item {
+  grid-column-gap: 50px;
+  padding-top: 48px;
+}
+
+.news-item-image {
+  min-width: 374px;
+} 
+
+.news-item-block {
+  width: 575px;
+}
+
+.news-header {
+  margin-bottom: 30px;
+  font-size: 30px;
+  line-height: 1.5;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.news-author {
+  justify-content: flex-start;
+  grid-column-gap: 16px;
+  margin-bottom: 24px;
+}
+
+.name-author {
+  color: $orange;
+}
+
+.small-text {
+  font-size: 12.8px;
+}
+
+.news-footer {
+  margin-top: 24px;
+}
+
+.pad-16-30 {
+  margin-bottom: 0;
+  padding: 16px 30px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
