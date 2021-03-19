@@ -60,6 +60,7 @@ h1 {
 }
 
 h2 {
+  margin-bottom: 48px;
   font-size: 38px;
 }
 
@@ -88,6 +89,61 @@ p {
 span {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.btn {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 318px;
+          flex: 2 1 318px;
+  margin-top: 24px;
+  padding: 16px 30px;
+  text-transform: uppercase;
+  background: none;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+}
+
+.more {
+  color: #cacaca;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+.mh-50 {
+  margin: 0 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-64 {
+  margin-bottom: 64px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pv-21 {
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+.ph-40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.ph-115 {
+  padding-left: 115px;
+  padding-right: 115px;
 }
 
 header {
@@ -233,15 +289,10 @@ main {
   grid-column-gap: 50px;
 }
 
-.pricing h2 {
-  margin-bottom: 20px;
-}
-
 .pricing-item {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  margin-top: 26px;
   margin-bottom: 39px;
   padding: 21px 1.5rem;
   max-width: 319px;
@@ -286,36 +337,11 @@ main {
   background-size: cover;
 }
 
-.btn {
-  -webkit-box-flex: 2;
-      -ms-flex: 2 1 318px;
-          flex: 2 1 318px;
-  margin-top: 24px;
-  margin-bottom: 64px;
-  padding: 21px 115px;
-  text-transform: uppercase;
-  background: none;
-  border: 1px solid #cacaca;
-  border-radius: 5px;
-}
-
-.more {
-  color: #cacaca;
-  font-size: 16px;
-  line-height: 1.5;
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-}
-
 .item-footer {
   margin: 0;
   padding-bottom: 45px;
   font-size: 12.8px;
   text-align: center;
-}
-
-.news {
-  padding-top: 100px;
 }
 
 .news-item {
@@ -359,13 +385,19 @@ main {
   margin-top: 24px;
 }
 
-.pad-16-30 {
-  margin-bottom: 0;
-  padding: 16px 30px;
+.bg-red {
+  text-transform: capitalize;
+  background: #95390c;
+  border: none;
+  border-radius: 32px;
 }
 
-.mb-50 {
-  margin-bottom: 50px;
+.app-body {
+  grid-column-gap: 167px;
+}
+
+.app-text {
+  width: 600px;
 }
 
 @media screen and (min-width: 1240px) {

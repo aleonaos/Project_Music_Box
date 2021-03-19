@@ -1,0 +1,14 @@
+.bg-red {
+  text-transform: capitalize;
+  background: $red;
+  border: none;
+  border-radius: 32px;
+}
+
+.app-body {
+  grid-column-gap: 167px;
+}
+
+.app-text {
+  width: 600px;
+}
