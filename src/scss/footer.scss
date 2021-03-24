@@ -1,0 +1,48 @@
+.bg-gradient {
+    background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+  }
+
+.first-part-footer {
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 75px;
+}
+
+hr {
+  margin: 0;
+  border-bottom: 0px solid #E0E0E0;
+}
+
+.pv-footer {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.small-header {
+  margin-bottom: 16px;
+  font-size: $main-size;
+  text-align: left;
+}
+
+.menu {
+  width: 310px;
+  margin-bottom: 30px;
+}
+
+.light-gray {
+  color: $light-gray;
+  box-sizing: border-box;
+}
+
+.contacts {
+  margin-right: 24px;
+}
+
+.second-part-footer {
+  justify-content: flex-start;
+  grid-column-gap: 15px;
+  margin-top: 40px;
+  a {
+    margin-bottom: 16px;
+  }
+}

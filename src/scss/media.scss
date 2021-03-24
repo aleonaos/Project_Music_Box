@@ -40,9 +40,19 @@
   p {
     margin-top: 16px;
     } 
+  .first-part-footer {
+    div {
+      width: 310px;
+    }
+  }
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
   nav {
     margin-right: 0;
+  }
+  .second-part-footer {
+    a {
+      width: 434px;
+    }
   }
 }
