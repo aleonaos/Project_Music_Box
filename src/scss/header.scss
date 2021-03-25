@@ -34,6 +34,10 @@ header {
   a {
     color: $gray;
     text-decoration: none;
+
+    &:hover {
+      color: $light-gray;
+    }
   }
   input {
     flex-grow: 1;

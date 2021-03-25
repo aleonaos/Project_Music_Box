@@ -1,18 +1,18 @@
-main {
+.main-page {
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
 }
+
+.artist-page {
+  background-image: url("../images/Morten\ Harket.png");
+  background-position: center;
+  background-size: cover;
+}
+
 .main-section {
   padding-top: 200px;
   padding-bottom: 200px;
-
-  p{
-    margin: 0 auto;
-    margin-top: 32px;
-    margin-bottom: 16px;
-    text-align: center;
-  }
 
   form {
     max-width: 570px;
@@ -44,7 +44,53 @@ main {
     }
   }
 }
+
 .center {
   width: 100vw;
   margin: 0 auto;
+}
+
+.form-description {
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.header-artist {
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.fans {
+  margin:0;
+  margin-bottom: 24px;
+}
+
+.btn-artist {
+  width: 200px;
+  height: 62px;
+  padding: 20px 30px;
+  margin-right: 1.5rem;
+  color: $gray;
+  font-size: 12.8px;
+  line-height: 1.5;
+  text-align: left;
+  border: none;
+  img {
+    filter: invert(1);
+    width: 20px;
+    margin-right: 16px;
+  }
+}
+
+.purple {
+  background: $purple;
+}
+
+.red {
+  background: $red;
+}
+
+.align-center {
+  vertical-align: text-bottom;
 }

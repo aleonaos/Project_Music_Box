@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-    <header class="flex">
+    <header>
         <div class="logo">
             <img src="images/logo.svg" alt="Логотип">
             <span>Music Box</span>
@@ -17,16 +17,27 @@
         <nav>
             <ul>
                 <li><a href="#page-description">Главная</a></li>
-                <li><a href="#main">Каталог</a></li>
-                <li><a href="#main">Исполнители</a></li>
-                <li><a href="#main">Контакты</a></li>
+                <li><a href="#page-pricing">Каталог</a></li>
+                <li><a href="#page-news">Исполнители</a></li>
+                <li><a href="#page-app">Контакты</a></li>
             </ul>
         </nav>
             <label for ="search" class="hidden">Поиск</label>
             <input id="search" type="text" name="search" placeholder="Поиск...">
     </header>
-    <main>
-        
+    <main class="artist-page">
+        <section id="page-description" class="main-section">
+            <h1 class="header-artist">Morten Harket</h1>
+            <p class="fans">24 875 поклонников</p>
+            <button class="btn btn-artist purple">
+                <img src="images/play-button.svg" alt="play">
+                <span class="align-center">МИКС</span>
+            </button>
+            <button class="btn btn-artist red">
+                <img src="images/heart.svg" alt="в избранное">
+                <span class="align-center">В ИЗБРАННОЕ</span>
+            </button>
+        </section>
     </main> 
     <footer class="bg-gradient pv-footer">
         <section class="flex first-part-footer">
