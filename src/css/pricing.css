@@ -11,6 +11,11 @@
   border-radius: 1.5rem;
 }
 
+.pricing-item h3 {
+  font-weight: normal;
+  line-height: 1.87;
+}
+
 .pricing-footer {
   text-align: center;
 }

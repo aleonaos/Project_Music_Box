@@ -1,6 +1,5 @@
 .news-item {
   grid-column-gap: 50px;
-  padding-top: 48px;
 }
 
 .news-item-image {
@@ -13,8 +12,8 @@
 
 .news-header {
   margin-bottom: 30px;
+  font-weight: normal;
   font-size: 30px;
-  line-height: 1.5;
   text-align: left;
   text-transform: capitalize;
 }

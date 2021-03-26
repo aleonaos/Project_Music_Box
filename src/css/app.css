@@ -58,9 +58,7 @@ h2 {
 }
 
 h3 {
-  font-weight: normal;
   font-size: 24px;
-  line-height: 1.87;
 }
 
 header,
@@ -133,6 +131,18 @@ span {
 .ph-115 {
   padding-left: 115px;
   padding-right: 115px;
+}
+
+.left {
+  text-align: left;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.end {
+  margin-left: auto;
 }
 
 header {
@@ -261,11 +271,11 @@ header input {
   margin: 0 auto;
   margin-top: 32px;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .header-artist {
   margin-bottom: 16px;
-  text-align: left;
 }
 
 .fans {
@@ -316,6 +326,11 @@ header input {
   border-radius: 1.5rem;
 }
 
+.pricing-item h3 {
+  font-weight: normal;
+  line-height: 1.87;
+}
+
 .pricing-footer {
   text-align: center;
 }
@@ -363,7 +378,6 @@ header input {
 
 .news-item {
   grid-column-gap: 50px;
-  padding-top: 48px;
 }
 
 .news-item-image {
@@ -376,8 +390,8 @@ header input {
 
 .news-header {
   margin-bottom: 30px;
+  font-weight: normal;
   font-size: 30px;
-  line-height: 1.5;
   text-align: left;
   text-transform: capitalize;
 }
@@ -413,6 +427,26 @@ header input {
 
 .app-text {
   width: 600px;
+}
+
+.popular {
+  padding-top: 100px;
+}
+
+.popular-track {
+  justify-content: flex-start;
+  width: 575px;
+  margin-bottom: 25px;
+}
+
+.popular-track img {
+  width: 55px;
+  height: 55px;
+  margin-right: 15px;
+}
+
+.popular-track:nth-last-child(-n+2) {
+  margin-bottom: 0;
 }
 
 .bg-gradient {
@@ -484,7 +518,6 @@ hr {
   h2 {
     font-size: 18px;
   }
-  h3,
   .news-header {
     font-size: 16px;
     margin-bottom: 16px;
@@ -500,11 +533,14 @@ hr {
   .news-item {
     justify-content: center;
   }
-  p {
+  .form-description {
     margin-top: 16px;
   }
   .first-part-footer div {
     width: 310px;
+  }
+  .popular-track:nth-last-child(2) {
+    margin-bottom: 25px;
   }
 }
 

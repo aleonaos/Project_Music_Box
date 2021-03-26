@@ -38,9 +38,7 @@ h2 {
 
 h3 {
   @extend %h-styles;
-  font-weight: normal;
   font-size: $size-h3;
-  line-height: 1.87;
 }
 
 header,
@@ -118,3 +116,14 @@ span {
   padding-right: 115px;
 }
 
+.left {
+  text-align: left;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.end {
+  margin-left: auto;
+}
