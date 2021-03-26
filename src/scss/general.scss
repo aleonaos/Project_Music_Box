@@ -48,6 +48,10 @@ section {
   padding: 0 20px;
 }
 
+section {
+  padding-top: 100px;
+}
+
 li {
   list-style: none;
 }
@@ -97,10 +101,6 @@ span {
   margin-bottom: 100px;
 }
 
-.pt-100 {
-  padding-top: 100px;
-}
-
 .pv-21 {
   padding-top: 21px;
   padding-bottom: 21px;
@@ -120,10 +120,19 @@ span {
   text-align: left;
 }
 
-.space-between {
-  justify-content: space-between;
+.left-align {
+  justify-content: none;
+  grid-column-gap: 50px;
 }
 
 .end {
   margin-left: auto;
+}
+
+.font-size-18px {
+  font-size: 18px;
+}
+
+.capitalaze {
+  text-transform: capitalize;
 }
