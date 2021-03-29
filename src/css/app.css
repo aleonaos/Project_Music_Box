@@ -133,8 +133,12 @@ span {
   padding-right: 115px;
 }
 
-.left {
+.left-text {
   text-align: left;
+}
+
+.cenetr-text {
+  text-align: center;
 }
 
 .left-align {
@@ -454,20 +458,25 @@ header input {
   margin-bottom: 0;
 }
 
-.discography {
+.other {
   display: flex;
   flex-wrap: wrap;
   grid-row-gap: 25px;
   grid-column-gap: 50px;
 }
 
-.discography-item {
+.other-item {
   max-width: 250px;
 }
 
-.discography-item img {
+.other-item img {
   width: 250px;
   height: 250px;
+}
+
+.pv-footer {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 
 .bg-gradient {
@@ -477,17 +486,24 @@ header input {
 .first-part-footer {
   align-items: flex-start;
   justify-content: flex-start;
-  margin-bottom: 75px;
+  margin-bottom: 3rem;
+  padding-top: 0;
+}
+
+.second-part-footer {
+  justify-content: flex-start;
+  grid-column-gap: 15px;
+  margin-top: 2rem;
+  padding-top: 0;
+}
+
+.second-part-footer a {
+  margin-bottom: 16px;
 }
 
 hr {
   margin: 0;
   border-bottom: 0px solid #E0E0E0;
-}
-
-.pv-footer {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
 }
 
 .small-header {
@@ -508,16 +524,6 @@ hr {
 
 .contacts {
   margin-right: 24px;
-}
-
-.second-part-footer {
-  justify-content: flex-start;
-  grid-column-gap: 15px;
-  margin-top: 40px;
-}
-
-.second-part-footer a {
-  margin-bottom: 16px;
 }
 
 @media screen and (min-width: 1240px) {
@@ -572,10 +578,10 @@ hr {
   .second-part-footer a {
     width: 434px;
   }
-  .discography-item {
+  .other-item {
     max-width: 137px;
   }
-  .discography-item img {
+  .other-item img {
     width: 137px;
     height: 137px;
   }

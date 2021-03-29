@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "AAAA,AAAA,MAAM,CAAC;EACL,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,YAAY,EAAE,IAAI;EAClB,eAAe,EAAE,IAAI;CACtB;;AAED,AAAA,WAAW,CAAC;EACV,SAAS,EAAE,KAAK;CAKjB;;AAND,AAEE,WAFS,CAET,GAAG,CAAC;EACF,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CACd",
     "sources": [
-        "../scss/discography.scss"
+        "../scss/discography and similar.scss"
     ],
     "names": [],
-    "file": "discography.css"
+    "file": "discography and similar.css"
 }

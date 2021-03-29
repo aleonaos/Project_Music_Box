@@ -1,3 +1,8 @@
+.pv-footer {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
 .bg-gradient {
     background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
   }
@@ -5,17 +10,23 @@
 .first-part-footer {
   align-items: flex-start;
   justify-content: flex-start;
-  margin-bottom: 75px;
+  margin-bottom: 3rem;
+  padding-top: 0;
+}
+
+.second-part-footer {
+  justify-content: flex-start;
+  grid-column-gap: 15px;
+  margin-top: 2rem;
+  padding-top: 0;
+  a {
+    margin-bottom: 16px;
+  }
 }
 
 hr {
   margin: 0;
   border-bottom: 0px solid #E0E0E0;
-}
-
-.pv-footer {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
 }
 
 .small-header {
@@ -36,13 +47,4 @@ hr {
 
 .contacts {
   margin-right: 24px;
-}
-
-.second-part-footer {
-  justify-content: flex-start;
-  grid-column-gap: 15px;
-  margin-top: 40px;
-  a {
-    margin-bottom: 16px;
-  }
 }
