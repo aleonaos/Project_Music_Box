@@ -1,35 +1,15 @@
-.pricing {
-  padding-top: 100px;
-  grid-column-gap: 50px;
-}
 .pricing-item {
   flex-grow: 1;
+
+  max-width: 319px;
   margin-bottom: 39px;
   padding: 21px 1.5rem;
-  max-width: 319px;
+
   border-radius: 1.5rem;
+
   h3 {
     font-weight: normal;
     line-height: 1.87;
-  }
-}
-
-.pricing-footer {
-  text-align: center;
-}
-
-.pricing-value {
-  margin: 0;
-  margin-top: 200px;
-  font-size: 32px;
-  text-align: center;
-  text-transform: uppercase;
-  span {
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 16px;
-    font-size: 64px;
-    line-height: 1em;
   }
 }
 
@@ -51,9 +31,35 @@
   background-size: cover;
 }
 
+.pricing-button {
+  margin-bottom: 64px;
+  padding: 21px 115px;
+}
+
+.pricing-value {
+  margin: 0;
+  margin-top: 200px;
+
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+
+  span {
+    display: inline-block;
+  
+    margin-right: 16px;
+
+    font-size: 64px;
+    line-height: 1em;
+
+    vertical-align: top;
+  }
+}
+
 .item-footer {
   margin: 0;
   padding-bottom: 45px;
+
   font-size: 12.8px;
   text-align: center;
 }

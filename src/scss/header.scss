@@ -3,6 +3,7 @@ header {
   top: 25px;
   right: 0;
   left: 0;
+
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -11,26 +12,34 @@ header {
   span {
     @extend %header-text;
   }
+
   nav {
     max-width: 324px;
     margin-right: 421px;
     margin-bottom: 16px;
   }
+
   ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
     margin: 0;
     padding: 0;
+
     @extend %header-text;
+
     li {
       display: block;
+
       &:not(:last-child) {
         margin-right: 24px;
+
         box-sizing: border-box;
       }
     }
   }
+
   a {
     color: $gray;
     text-decoration: none;
@@ -39,8 +48,10 @@ header {
       color: $light-gray;
     }
   }
+
   input {
     flex-grow: 1;
+
     width: 228px;
     padding: 5px 10px;
 
@@ -53,10 +64,10 @@ header {
 }
 
 .logo {
-  @extend %flex-container;
   width: 103px;
   margin-right: 85px;
   margin-bottom: 17px;
+
   img {
     width: 24px;
     height: 24px;

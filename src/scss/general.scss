@@ -9,20 +9,35 @@
   font-family: "Roboto";
   src: url("fonts/Roboto-Medium.ttf");
 }
+
 @font-face {
   font-weight: 400;
   font-family: "Roboto";
   src: url("fonts/Roboto-Regular.ttf");
 }
+
 body {
   width: 100vw;
   margin: 0 auto;
   padding: 0;
+
   color: $gray;
   font-size: 18px;
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
+
   background-color: $dark;
+}
+
+header,
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  padding-top: 100px;
 }
 
 h1 {
@@ -41,15 +56,9 @@ h3 {
   font-size: $size-h3;
 }
 
-header,
-section {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-section {
-  padding-top: 100px;
+.small-header {
+  font-size: $main-size;
+  text-align: left;
 }
 
 li {
@@ -60,6 +69,7 @@ p {
   margin: 0;
   font-size: 16px;
 }
+
 span {
   box-sizing: border-box;
 }
@@ -68,42 +78,32 @@ span {
   @extend %flex-container;
 }
 
-.btn {
-  flex: 2 1 318px;
-  margin-top: 24px;
-  padding: 16px 30px;
-  text-transform: uppercase;
-  background: none;
-  border: 1px solid $gray;
-  border-radius: 5px;
+.column-gap-50 {
+  grid-column-gap: 50px;
 }
 
-.more {
-  display: block;
-  color: $gray;
-  font-size: 16px;
-  text-decoration: none;
+.left-align {
+  justify-content: none;
+}
+
+.end {
+  margin-left: auto;
 }
 
 .mh-50 {
   margin: 0 50px;
 }
 
+.mb-16 {
+  margin-bottom: 16px;
+}
+
 .mb-50 {
   margin-bottom: 50px;
 }
 
-.mb-64 {
-  margin-bottom: 64px;
-}
-
 .mb-100 {
   margin-bottom: 100px;
-}
-
-.pv-21 {
-  padding-top: 21px;
-  padding-bottom: 21px;
 }
 
 .ph-40 {
@@ -111,26 +111,16 @@ span {
   padding-right: 40px;
 }
 
-.ph-115 {
-  padding-left: 115px;
-  padding-right: 115px;
+.small-text {
+  font-size: 12.8px;
 }
 
 .left-text {
   text-align: left;
 }
 
-.cenetr-text {
+.center-text {
   text-align: center;
-}
-
-.left-align {
-  justify-content: none;
-  grid-column-gap: 50px;
-}
-
-.end {
-  margin-left: auto;
 }
 
 .font-size-18px {
@@ -139,4 +129,25 @@ span {
 
 .capitalaze {
   text-transform: capitalize;
+}
+
+.btn {
+  flex: 2 1 318px;
+
+  margin-top: 24px;
+  padding: 16px 30px;
+
+  text-transform: uppercase;
+
+  background: none;
+  border: 1px solid $gray;
+  border-radius: 5px;
+}
+
+.more {
+  display: block;
+
+  color: $gray;
+  font-size: 16px;
+  text-decoration: none;
 }

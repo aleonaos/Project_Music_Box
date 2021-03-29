@@ -1,7 +1,3 @@
-.news-item {
-  grid-column-gap: 50px;
-}
-
 .news-item-image {
   min-width: 374px;
 } 
@@ -12,26 +8,24 @@
 
 .news-header {
   margin-bottom: 30px;
+
   font-weight: normal;
   font-size: 30px;
   text-align: left;
   text-transform: capitalize;
 }
 
+.news-footer {
+  margin-top: 24px;
+}
+
 .news-author {
   justify-content: flex-start;
   grid-column-gap: 16px;
+
   margin-bottom: 24px;
 }
 
 .name-author {
   color: $orange;
-}
-
-.small-text {
-  font-size: 12.8px;
-}
-
-.news-footer {
-  margin-top: 24px;
 }
