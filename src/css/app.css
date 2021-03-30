@@ -1,3 +1,24 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header span, header ul {
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+}
+
 @font-face {
   font-weight: bold;
   font-family: "Roboto";
@@ -27,30 +48,9 @@ body {
   background-color: #08020D;
 }
 
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-h1, h2, h3 {
-  margin: 0;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-header span, header ul {
-  font-weight: bold;
-  font-size: 11px;
-  line-height: 13px;
-  text-transform: uppercase;
-}
-
 header,
 section {
-  max-width: 1200px;
+  max-width: 1160px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -73,6 +73,7 @@ h3 {
 }
 
 .small-header {
+  margin: 0;
   font-size: 18px;
   text-align: left;
 }
@@ -90,6 +91,26 @@ span {
   box-sizing: border-box;
 }
 
+.btn {
+  flex: 2 1 318px;
+  margin-top: 24px;
+  padding: 16px 30px;
+  text-transform: uppercase;
+  background: none;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+}
+
+.more {
+  color: #cacaca;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
 .column-gap-50 {
   grid-column-gap: 50px;
 }
@@ -102,12 +123,8 @@ span {
   margin-left: auto;
 }
 
-.mh-50 {
-  margin: 0 50px;
-}
-
-.mb-16 {
-  margin-bottom: 16px;
+.mb-24 {
+  margin-bottom: 24px;
 }
 
 .mb-50 {
@@ -143,23 +160,6 @@ span {
   text-transform: capitalize;
 }
 
-.btn {
-  flex: 2 1 318px;
-  margin-top: 24px;
-  padding: 16px 30px;
-  text-transform: uppercase;
-  background: none;
-  border: 1px solid #cacaca;
-  border-radius: 5px;
-}
-
-.more {
-  display: block;
-  color: #cacaca;
-  font-size: 16px;
-  text-decoration: none;
-}
-
 header {
   position: absolute;
   top: 25px;
@@ -169,12 +169,12 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
+  grid-row-gap: 16px;
 }
 
 header nav {
   max-width: 324px;
-  margin-right: 421px;
-  margin-bottom: 16px;
+  margin-right: 381px;
 }
 
 header ul {
@@ -216,7 +216,6 @@ header input {
 .logo {
   width: 103px;
   margin-right: 85px;
-  margin-bottom: 17px;
 }
 
 .logo img {
@@ -337,11 +336,6 @@ header input {
   border-radius: 1.5rem;
 }
 
-.pricing-item h3 {
-  font-weight: normal;
-  line-height: 1.87;
-}
-
 .bg-free {
   background: url("../images/subscribe_1.png");
   background-position: center;
@@ -360,7 +354,14 @@ header input {
   background-size: cover;
 }
 
-.pricing-button {
+.pricing-name {
+  font-weight: normal;
+  line-height: 1.87;
+}
+
+.pricing-link {
+  display: block;
+  margin-top: 48px;
   margin-bottom: 64px;
   padding: 21px 115px;
 }
@@ -393,7 +394,7 @@ header input {
 }
 
 .news-item-block {
-  width: 575px;
+  width: 535px;
 }
 
 .news-header {
@@ -411,7 +412,7 @@ header input {
 .news-author {
   justify-content: flex-start;
   grid-column-gap: 16px;
-  margin-bottom: 24px;
+  margin-bottom: 48px;
 }
 
 .name-author {
@@ -419,6 +420,7 @@ header input {
 }
 
 .bg-red {
+  margin-top: 16px;
   text-transform: capitalize;
   background: #95390c;
   border: none;
@@ -426,11 +428,17 @@ header input {
 }
 
 .app-body {
+  align-items: flex-start;
   grid-column-gap: 167px;
+}
+
+.app-body img {
+  margin: 0 auto;
 }
 
 .app-text {
   width: 600px;
+  margin-top: 16px;
 }
 
 .popular-track {
@@ -462,6 +470,7 @@ header input {
 .other-item img {
   width: 250px;
   height: 250px;
+  margin-bottom: 18px;
 }
 
 .pv-footer {
@@ -475,7 +484,7 @@ header input {
 
 .first-part-footer {
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: space-between;
   margin-bottom: 3rem;
   padding-top: 0;
 }
@@ -487,23 +496,23 @@ header input {
   padding-top: 0;
 }
 
-.second-part-footer a {
-  margin-bottom: 16px;
-}
-
 hr {
   margin: 0;
   border-bottom: 0px solid #E0E0E0;
 }
 
 .menu {
-  width: 310px;
+  width: 260px;
   margin-bottom: 30px;
+}
+
+.menu-point {
+  margin-top: 16px;
 }
 
 .light-gray {
   color: #e0e0e0;
-  box-sizing: border-box;
+  text-decoration: none;
 }
 
 .contacts {
@@ -533,6 +542,11 @@ hr {
   }
   h2 {
     font-size: 18px;
+  }
+  .pricing-name {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
   }
   .main-section {
     padding-top: 250px;
@@ -565,6 +579,7 @@ hr {
   }
   .second-part-footer a {
     width: 434px;
+    margin-bottom: 16px;
   }
 }
 /*# sourceMappingURL=app.css.map */

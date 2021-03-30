@@ -43,21 +43,21 @@
         <h2>Формы подписки</h2>
         <div class="flex">
             <div class="pricing-item bg-free">
-                <h3>Бесплатная</h3>
+                <h3 class="pricing-name">Бесплатная</h3>
                 <p class="pricing-value"><span>0</span> руб.</p>
-                <button class="btn pricing-button"><a href="#" class="more">Оформить</a></button>
+                <a href="#" class="btn more pricing-link">Оформить</a>
                 <p class="item-footer">Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутствует реклама</p>
             </div>
             <div class="pricing-item bg-standard">
-                <h3>Стандартная</h3>
+                <h3 class="pricing-name">Стандартная</h3>
                 <p class="pricing-value"><span>250</span> руб.</p>
-                <button class="btn pricing-button"><a href="#" class="more">Оформить</a></button>
+                <a href="#" class="btn more pricing-link">Оформить</a>
                 <p class="item-footer">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в среднем качестве</p>
             </div>
             <div class="pricing-item bg-premium">
-                <h3>Премиум</h3>
+                <h3 class="pricing-name">Премиум</h3>
                 <p class="pricing-value"><span>500</span> руб.</p>
-                <button class="btn pricing-button"><a href="#" class="more">Оформить</a></button>
+                <a href="#" class="btn more pricing-link">Оформить</a>
                 <p class="item-footer">Оплата в месяц. Премиум тариф предоставляет доступ ко всей коллекции музыки в высоком качестве</p>
             </div>
         </div>
@@ -78,7 +78,7 @@
                         <span class="name-author small-text">MUSIC BOX</span>
                         <span class="small-text">17/01/2020</span>
                     </div>
-                    <button class="btn"><a href="#" class="more small-text">К АЛЬБОМУ</a></button>
+                    <a href="#" class="btn more small-text">К АЛЬБОМУ</a>
                 </div>
             </div>
         </div>
@@ -95,7 +95,7 @@
                         <p class="name-author small-text">MUSIC BOX</p>
                         <p class="small-text">24/02/2020</p>
                     </div>
-                <button class="btn"><a href="#" class="more small-text">К АЛЬБОМУ</a></button>
+                <a href="#" class="btn more small-text">К АЛЬБОМУ</a>
                 </div>
             </div> 
         </div>
@@ -103,42 +103,50 @@
     <section id="page-app" class="mb-100">
         <h2>Мобильное приложение</h2>
         <div class="flex app-body">
-            <img src="images/iphone.png" alt="Скачать" class="mh-50 right-place">
+            <img src="images/iphone.png" alt="Скачать" class="right-place">
             <div class="app-text">
-                <p>Воспользуйтесь нашим мобильным приложением. Оно позволит слушать музыку с любого устройства на базе операционных систем Androind и iOS</p>
-                <p><br>С тарифом «Премиум» приложение позволяет скачивать все композиции из нашей коллекции. Вы можете слушать музыку даже без интернета.</p>
-                <button class="btn bg-red ph-40"><a href="#" class="more small-text">Скачать</a></button>
+                <p class="mb-24">Воспользуйтесь нашим мобильным приложением. Оно позволит слушать музыку с любого устройства на базе операционных систем Androind и iOS</p>
+                <p>С тарифом «Премиум» приложение позволяет скачивать все композиции из нашей коллекции. Вы можете слушать музыку даже без интернета.</p>
+                <button class="btn bg-red ph-40"><a href="#" class="small-text more">Скачать</a></button>
             </div>
         </div>
     </section>
     <footer id="contacts" class="bg-gradient pv-footer">
         <section class="flex first-part-footer">
             <div class="menu">
-                <h2 class="small-header mb-16">О нас</h2>
-                <a class="more light-gray" href="#">История компании</a>
-                <a class="more light-gray" href="#">Карьера</a>
-                <a class="more light-gray" href="#">Особенности</a>
-                <a class="more light-gray" href="#">Пресса</a>
+                <h2 class="small-header">О нас</h2>
+                <div class="menu-point">
+                    <p><a class="more light-gray" href="#">История компании</a></p>
+                    <p><a class="more light-gray" href="#">Карьера</a></p>
+                    <p><a class="more light-gray" href="#">Особенности</a></p>
+                    <p><a class="more light-gray" href="#">Пресса</a></p>
+                </div>
             </div>
             <div class="menu">
-                <h2 class="small-header mb-16">Поддержка</h2>
-                <a class="more light-gray" href="#">База знаний</a>
-                <a class="more light-gray" href="#">Тарифы</a>
-                <a class="more light-gray" href="#">Мобильное приложение</a>
-                <a class="more light-gray" href="#">Условия использования</a>
+                <h2 class="small-header">Поддержка</h2>
+                <div class="menu-point">
+                    <p><a class="more light-gray" href="#">База знаний</a></p>
+                    <p><a class="more light-gray" href="#">Тарифы</a></p>
+                    <p><a class="more light-gray" href="#">Мобильное приложение</a></p>
+                    <p><a class="more light-gray" href="#">Условия использования</a></p>
+                </div>
             </div>
             <div class="menu">
-                <h2 class="small-header mb-16">Контакты</h2>
-                <a class="more light-gray" href="#">hello@music.box</a>
-                <a class="more light-gray" href="#">Russia, Moscow. Music Box studio</a>
-                <a class="more light-gray" href="#">+ 7 499 999 99 99</a>
+                <h2 class="small-header">Контакты</h2>
+                <div class="menu-point">
+                    <a class="more light-gray" href="#">hello@music.box</a>
+                    <p class="light-gray">Russia, Moscow. Music Box studio</p>
+                    <a class="light-gray more" href="#">+ 7 499 999 99 99</a>
+                </div>
             </div>
-            <div>
-                <h2 class="small-header mb-16">Подписывайтесь</h2>
-                <img class="contacts" src="images/Google+.png" alt="Google+">
-                <img class="contacts" src="images/Twitter.png" alt="Twitter">
-                <img class="contacts" src="images/Facebook.png" alt="Facebook">
-                <img class="contacts" src="images/Instagram.png" alt="Instagram">
+            <div class="menu">
+                <h2 class="small-header">Подписывайтесь</h2>
+                <div class="menu-point">
+                    <a href="#"><img class="contacts" src="images/Google+.png" alt="Google+"></a>
+                    <a href="#"><img class="contacts" src="images/Twitter.png" alt="Twitter"></a>
+                    <a href="#"><img class="contacts" src="images/Facebook.png" alt="Facebook"></a>
+                    <a href="#"><img class="contacts" src="images/Instagram.png" alt="Instagram"></a>
+                </div>
             </div>
         </section>
         <hr>

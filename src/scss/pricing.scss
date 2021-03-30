@@ -6,11 +6,6 @@
   padding: 21px 1.5rem;
 
   border-radius: 1.5rem;
-
-  h3 {
-    font-weight: normal;
-    line-height: 1.87;
-  }
 }
 
 .bg-free {
@@ -31,7 +26,14 @@
   background-size: cover;
 }
 
-.pricing-button {
+.pricing-name {
+  font-weight: normal;
+  line-height: 1.87;
+}
+
+.pricing-link {
+  display: block;
+  margin-top: 48px;
   margin-bottom: 64px;
   padding: 21px 115px;
 }

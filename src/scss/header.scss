@@ -8,6 +8,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
+  grid-row-gap: 16px;
 
   span {
     @extend %header-text;
@@ -15,8 +16,7 @@ header {
 
   nav {
     max-width: 324px;
-    margin-right: 421px;
-    margin-bottom: 16px;
+    margin-right: 381px;
   }
 
   ul {
@@ -66,7 +66,6 @@ header {
 .logo {
   width: 103px;
   margin-right: 85px;
-  margin-bottom: 17px;
 
   img {
     width: 24px;

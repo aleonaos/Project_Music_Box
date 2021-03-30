@@ -27,6 +27,12 @@
     font-size: 18px;
   }
 
+  .pricing-name {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
   .main-section {
     padding-top: 250px; 
   }
@@ -37,7 +43,7 @@
 
   .news-header {
     margin-bottom: 16px;
-
+  
     font-size: 16px;
   }
 
@@ -66,6 +72,7 @@
   .second-part-footer {
     a {
       width: 434px;
+      margin-bottom: 16px;
     }
   }
 }

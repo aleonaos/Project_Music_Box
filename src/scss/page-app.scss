@@ -1,4 +1,5 @@
 .bg-red {
+  margin-top: 16px;
   text-transform: capitalize;
 
   background: $red;
@@ -7,9 +8,15 @@
 }
 
 .app-body {
+  align-items: flex-start;
   grid-column-gap: 167px;
+
+  img {
+    margin: 0 auto;
+  }
 }
 
 .app-text {
   width: 600px;
+  margin-top: 16px;
 }
