@@ -107,6 +107,10 @@ span {
   text-decoration: none;
 }
 
+.align-start {
+  align-items: flex-start;
+}
+
 .space-between {
   justify-content: space-between;
 }
@@ -123,8 +127,8 @@ span {
   margin-left: auto;
 }
 
-.mb-24 {
-  margin-bottom: 24px;
+.mb-16 {
+  margin-bottom: 16px;
 }
 
 .mb-50 {
@@ -173,8 +177,8 @@ header {
 }
 
 header nav {
-  max-width: 324px;
-  margin-right: 381px;
+  max-width: 325px;
+  margin-right: 380px;
 }
 
 header ul {
@@ -214,8 +218,8 @@ header input {
 }
 
 .logo {
-  width: 103px;
-  margin-right: 85px;
+  width: 105px;
+  margin-right: 83px;
 }
 
 .logo img {
@@ -289,6 +293,7 @@ header input {
 }
 
 .header-artist {
+  margin-top: 50px;
   margin-bottom: 16px;
   text-align: left;
 }
@@ -325,7 +330,13 @@ header input {
 }
 
 .align-center {
-  vertical-align: text-bottom;
+  vertical-align: middle;
+}
+
+.pricing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .pricing-item {
@@ -391,6 +402,7 @@ header input {
 
 .news-item-image {
   min-width: 374px;
+  min-height: 186px;
 }
 
 .news-item-block {
@@ -420,6 +432,8 @@ header input {
 }
 
 .bg-red {
+  display: block;
+  max-width: 61px;
   margin-top: 16px;
   text-transform: capitalize;
   background: #95390c;
@@ -428,6 +442,8 @@ header input {
 }
 
 .app-body {
+  display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   grid-column-gap: 167px;
 }
@@ -443,7 +459,7 @@ header input {
 
 .popular-track {
   justify-content: flex-start;
-  width: 575px;
+  width: 555px;
   margin-bottom: 25px;
 }
 
@@ -470,7 +486,7 @@ header input {
 .other-item img {
   width: 250px;
   height: 250px;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
 }
 
 .pv-footer {
@@ -502,7 +518,7 @@ hr {
 }
 
 .menu {
-  width: 260px;
+  width: 240px;
   margin-bottom: 30px;
 }
 
@@ -570,7 +586,7 @@ hr {
   nav {
     margin-right: 0;
   }
-  .other-item {
+  .other-item:not(:nth-child(2)) {
     max-width: 137px;
   }
   .other-item img {

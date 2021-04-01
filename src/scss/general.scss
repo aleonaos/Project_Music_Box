@@ -98,6 +98,10 @@ span {
   @extend %flex-container;
 }
 
+.align-start {
+  align-items: flex-start;
+}
+
 .space-between {
   justify-content: space-between;
 }
@@ -114,8 +118,8 @@ span {
   margin-left: auto;
 }
 
-.mb-24 {
-  margin-bottom: 24px;
+.mb-16 {
+  margin-bottom: 16px;
 }
 
 .mb-50 {

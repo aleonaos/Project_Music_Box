@@ -1,5 +1,9 @@
 .bg-red {
+  display: block;
+
+  max-width: 61px;
   margin-top: 16px;
+
   text-transform: capitalize;
 
   background: $red;
@@ -8,6 +12,8 @@
 }
 
 .app-body {
+  display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   grid-column-gap: 167px;
 

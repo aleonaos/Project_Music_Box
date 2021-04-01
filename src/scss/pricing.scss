@@ -1,3 +1,9 @@
+.pricing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .pricing-item {
   flex-grow: 1;
 
