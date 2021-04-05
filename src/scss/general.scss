@@ -85,6 +85,8 @@ span {
 }
 
 .more {
+  display: block;
+
   color: $gray;
   font-size: 16px;
   text-decoration: none;
@@ -118,8 +120,8 @@ span {
   margin-bottom: 16px;
 }
 
-.mb-75 {
-  margin-bottom:75px;
+.mb-64 {
+  margin-bottom: 64px;
 }
 
 .mb-100 {

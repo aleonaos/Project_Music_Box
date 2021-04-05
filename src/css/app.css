@@ -108,6 +108,7 @@ span {
 }
 
 .more {
+  display: block;
   color: #cacaca;
   font-size: 16px;
   text-decoration: none;
@@ -143,8 +144,8 @@ span {
   margin-bottom: 16px;
 }
 
-.mb-75 {
-  margin-bottom: 75px;
+.mb-64 {
+  margin-bottom: 64px;
 }
 
 .mb-100 {
@@ -308,7 +309,7 @@ header input {
   -webkit-box-flex: 2;
       -ms-flex: 2 1 246px;
           flex: 2 1 246px;
-  height: 60px;
+  height: 57px;
   padding: 20px 30px;
   color: #fff;
   text-transform: uppercase;
@@ -387,7 +388,7 @@ header input {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  max-width: 302px;
+  max-width: 319px;
   margin-bottom: 40px;
   padding: 18px 1.5rem;
   border-radius: 1.5rem;
@@ -416,7 +417,6 @@ header input {
 }
 
 .pricing-link {
-  display: block;
   margin-top: 40px;
   margin-bottom: 64px;
   padding: 21px 105px;
@@ -424,7 +424,7 @@ header input {
 
 .pricing-value {
   margin: 0;
-  margin-top: 190px;
+  margin-top: 195px;
   font-size: 32px;
   text-align: center;
   text-transform: uppercase;
@@ -476,6 +476,10 @@ header input {
 
 .name-author {
   color: #f89202;
+}
+
+.btn-news {
+  width: 75px;
 }
 
 .bg-red {
@@ -573,8 +577,7 @@ header input {
           justify-content: flex-start;
   grid-column-gap: 15px;
   margin-top: 2rem;
-  margin-bottom: 16px;
-  padding-top: 10px;
+  padding-top: 0;
 }
 
 hr {
@@ -588,7 +591,7 @@ hr {
 }
 
 .menu-point {
-  margin-top: 16px;
+  margin-top: 15px;
   font-size: 16px;
 }
 
