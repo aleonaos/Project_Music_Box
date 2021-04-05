@@ -277,7 +277,6 @@ header input {
 }
 
 .main-section {
-  position: relative;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -471,7 +470,7 @@ header input {
       -ms-flex-pack: start;
           justify-content: flex-start;
   grid-column-gap: 16px;
-  margin-bottom: 58px;
+  margin-bottom: 48px;
 }
 
 .name-author {
@@ -553,7 +552,7 @@ header input {
 
 .pv-footer {
   padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 .bg-gradient {
@@ -577,7 +576,7 @@ header input {
           justify-content: flex-start;
   grid-column-gap: 15px;
   margin-top: 2rem;
-  padding-top: 0;
+  padding-top: 10px;
 }
 
 hr {
@@ -639,7 +638,6 @@ hr {
     margin-top: 25px;
   }
   .pricing-name {
-    font-weight: bold;
     font-size: 16px;
     line-height: 1.5;
   }
