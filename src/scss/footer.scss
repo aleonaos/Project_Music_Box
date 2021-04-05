@@ -21,7 +21,6 @@
 
   margin-top: 2rem;
   padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 hr {
@@ -31,12 +30,14 @@ hr {
 }
 
 .menu {
-  width: 265px;
+  width: 270px;
   margin-bottom: 30px;
 }
 
 .menu-point {
   margin-top: 16px;
+
+  font-size: 16px;
 }
 
 .light-gray {
@@ -47,4 +48,8 @@ hr {
 .contacts {
   height: 20px;
   margin-right: 24px;
+
+  img {
+    vertical-align: middle;
+  }
 }

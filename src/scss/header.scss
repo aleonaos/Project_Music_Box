@@ -1,14 +1,9 @@
 header {
   position: absolute;
   top: 25px;
-  right: 0;
   left: 0;
 
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-start;
-  grid-row-gap: 16px;
+  width: 100vw;
 
   span {
     @extend %header-text;
@@ -60,6 +55,19 @@ header {
     border-radius: 50px;
     border: none;
   }
+}
+
+
+.header-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  grid-row-gap: 16px;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .logo {

@@ -1,6 +1,8 @@
 .popular-track {
-  justify-content: flex-start;
-  width: 555px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 575px;
   margin-bottom: 25px;
 }
 

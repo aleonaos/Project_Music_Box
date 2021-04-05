@@ -1,15 +1,18 @@
-.other {
+.discography {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   grid-row-gap: 25px;
   grid-column-gap: 50px;
 }
 
-.other-item {
+.discography-item {
   max-width: 250px;
 }
 
-.other-item img {
+.discography-item img {
   width: 250px;
   height: 250px;
 }

@@ -29,14 +29,10 @@ body {
   background-color: $dark;
 }
 
-header,
 section {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-}
-
-section {
   padding-top: 100px;
 }
 
@@ -47,7 +43,7 @@ h1 {
 
 h2 {
   @extend %h-styles;
-  margin-bottom: 48px;
+  margin-bottom: 50px;
   font-size: $size-h2;
 }
 

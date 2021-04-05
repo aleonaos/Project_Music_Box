@@ -1,6 +1,9 @@
 .other {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   grid-row-gap: 25px;
 }
 

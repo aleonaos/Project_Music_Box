@@ -1,14 +1,20 @@
 .pricing {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .pricing-item {
-  flex-grow: 1;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   max-width: 319px;
-  margin-bottom: 39px;
-  padding: 21px 1.5rem;
+  margin-bottom: 45px;
+  padding: 18px 1.5rem;
   border-radius: 1.5rem;
 }
 
@@ -32,19 +38,18 @@
 
 .pricing-name {
   font-weight: normal;
-  line-height: 1.87;
 }
 
 .pricing-link {
   display: block;
-  margin-top: 48px;
+  margin-top: 40px;
   margin-bottom: 64px;
   padding: 21px 115px;
 }
 
 .pricing-value {
   margin: 0;
-  margin-top: 200px;
+  margin-top: 195px;
   font-size: 32px;
   text-align: center;
   text-transform: uppercase;
@@ -59,8 +64,9 @@
 }
 
 .item-footer {
+  height: 57px;
   margin: 0;
-  padding-bottom: 45px;
+  margin-bottom: 45px;
   font-size: 12.8px;
   text-align: center;
 }
