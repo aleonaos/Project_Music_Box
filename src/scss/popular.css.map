@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACb,eAAe,EAAE,UAAU;EAE3B,KAAK,EAAE,KAAK;EACZ,aAAa,EAAE,IAAI;CAOpB;;AAXD,AAME,cANY,CAMZ,GAAG,CAAC;EACF,KAAK,EAAC,IAAI;EACV,MAAM,EAAE,IAAI;EACZ,YAAY,EAAE,IAAI;CACnB;;AAGH,AAAA,cAAc,AAAA,eAAgB,CAAA,IAAI,EAAE;EAClC,aAAa,EAAE,CAAC;CACjB",
+    "sources": [
+        "popular.scss"
+    ],
+    "names": [],
+    "file": "popular.css"
+}

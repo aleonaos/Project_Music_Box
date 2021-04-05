@@ -33,12 +33,12 @@
     line-height: 1.5;
   }
 
-  .main-section {
-    padding-top: 250px; 
-  }
-
   .news-item {
     justify-content: center;
+  }
+
+  .news-item-image {
+    margin-bottom: 50px;
   }
 
   .news-header {
@@ -58,6 +58,10 @@
 @media screen and (max-width: 415px) {
   nav {
     margin-right: 0;
+
+    li {
+      width: 85px;
+    }
   }
 
   .other-item:not(:nth-child(2)) {
@@ -76,5 +80,9 @@
       width: 434px;
       margin-bottom: 16px;
     }
+  }
+  
+  .menu {
+    width: 310px;
   }
 }
