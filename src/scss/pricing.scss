@@ -2,13 +2,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
+  margin-top: 2px;
 }
 
 .pricing-item {
   flex-grow: 1;
 
-  max-width: 319px;
-  margin-bottom: 45px;
+  max-width: 302px;
+  margin-bottom: 40px;
   padding: 18px 1.5rem;
 
   border-radius: 1.5rem;
@@ -40,12 +42,12 @@
   display: block;
   margin-top: 40px;
   margin-bottom: 64px;
-  padding: 21px 115px;
+  padding: 21px 105px;
 }
 
 .pricing-value {
   margin: 0;
-  margin-top: 195px;
+  margin-top: 190px;
 
   font-size: 32px;
   text-align: center;
