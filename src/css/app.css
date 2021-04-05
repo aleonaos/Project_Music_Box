@@ -67,7 +67,7 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 50px;
+  margin-bottom: 48px;
   font-size: 38px;
 }
 
@@ -143,8 +143,8 @@ span {
   margin-bottom: 16px;
 }
 
-.mb-65 {
-  margin-bottom: 65px;
+.mb-70 {
+  margin-bottom: 70px;
 }
 
 .mb-100 {
@@ -276,6 +276,7 @@ header input {
 }
 
 .main-section {
+  position: relative;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -547,7 +548,7 @@ header input {
 
 .pv-footer {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
 .bg-gradient {
@@ -562,7 +563,7 @@ header input {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 3rem;
-  padding-top: 12px;
+  padding-top: 13px;
 }
 
 .second-part-footer {
@@ -595,7 +596,7 @@ hr {
 }
 
 .contacts {
-  height: 20px;
+  height: 21px;
   margin-right: 24px;
 }
 
