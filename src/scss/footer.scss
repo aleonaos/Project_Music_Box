@@ -20,7 +20,8 @@
   grid-column-gap: 15px;
 
   margin-top: 2rem;
-  padding-top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 hr {
@@ -30,7 +31,7 @@ hr {
 }
 
 .menu {
-  width: 260px;
+  width: 265px;
   margin-bottom: 30px;
 }
 
@@ -44,5 +45,6 @@ hr {
 }
 
 .contacts {
+  height: 20px;
   margin-right: 24px;
 }

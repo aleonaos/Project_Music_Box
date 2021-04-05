@@ -147,10 +147,6 @@ span {
   margin-bottom: 16px;
 }
 
-.mb-50 {
-  margin-bottom: 50px;
-}
-
 .mb-65 {
   margin-bottom: 65px;
 }
@@ -223,6 +219,7 @@ header ul {
 
 header ul li {
   display: block;
+  height: 15px;
 }
 
 header ul li:not(:last-child) {
@@ -241,9 +238,6 @@ header a:hover {
 }
 
 header input {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
   width: 228px;
   padding: 5px 10px;
   text-transform: uppercase;
@@ -311,7 +305,7 @@ header input {
   -webkit-box-flex: 2;
       -ms-flex: 2 1 246px;
           flex: 2 1 246px;
-  height: 57px;
+  height: 60px;
   padding: 20px 30px;
   color: #fff;
   text-transform: uppercase;
@@ -325,7 +319,7 @@ header input {
 }
 
 .form-description {
-  margin: 0 auto;
+  width: 100vw;
   margin-top: 32px;
   margin-bottom: 16px;
   text-align: center;
@@ -413,7 +407,6 @@ header input {
 
 .pricing-name {
   font-weight: normal;
-  line-height: 1.87;
 }
 
 .pricing-link {
@@ -425,7 +418,7 @@ header input {
 
 .pricing-value {
   margin: 0;
-  margin-top: 185px;
+  margin-top: 195px;
   font-size: 32px;
   text-align: center;
   text-transform: uppercase;
@@ -441,7 +434,7 @@ header input {
 
 .item-footer {
   margin: 0;
-  padding-bottom: 45px;
+  margin-bottom: 45px;
   font-size: 12.8px;
   text-align: center;
 }
@@ -452,7 +445,7 @@ header input {
 }
 
 .news-item-block {
-  width: 540px;
+  width: 580px;
 }
 
 .news-header {
@@ -508,13 +501,14 @@ header input {
 .app-text {
   width: 600px;
   margin-top: 16px;
+  padding: 0 5px;
 }
 
 .popular-track {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  width: 555px;
+  width: 575px;
   margin-bottom: 25px;
 }
 
@@ -573,7 +567,8 @@ header input {
           justify-content: flex-start;
   grid-column-gap: 15px;
   margin-top: 2rem;
-  padding-top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 hr {
@@ -582,7 +577,7 @@ hr {
 }
 
 .menu {
-  width: 260px;
+  width: 265px;
   margin-bottom: 30px;
 }
 
@@ -596,6 +591,7 @@ hr {
 }
 
 .contacts {
+  height: 20px;
   margin-right: 24px;
 }
 
@@ -648,6 +644,9 @@ hr {
   .popular-track:nth-last-child(2) {
     margin-bottom: 25px;
   }
+  .mt-50 {
+    margin-top: 50px;
+  }
 }
 
 @media screen and (max-width: 415px) {
@@ -655,7 +654,12 @@ hr {
     margin-right: 0;
   }
   nav li {
-    width: 85px;
+    width: 86px;
+  }
+  input {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
   }
   .other-item:not(:nth-child(2)) {
     max-width: 137px;
@@ -669,7 +673,7 @@ hr {
     margin-bottom: 16px;
   }
   .menu {
-    width: 310px;
+    width: 100vw;
   }
 }
 /*# sourceMappingURL=app.css.map */

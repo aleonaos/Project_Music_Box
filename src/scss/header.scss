@@ -31,6 +31,7 @@ header {
 
     li {
       display: block;
+      height: 15px;
 
       &:not(:last-child) {
         margin-right: 24px;
@@ -50,8 +51,6 @@ header {
   }
 
   input {
-    flex-grow: 1;
-
     width: 228px;
     padding: 5px 10px;
 
