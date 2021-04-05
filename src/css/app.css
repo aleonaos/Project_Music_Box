@@ -22,7 +22,7 @@ h1, h2, h3 {
 header span, header ul {
   font-weight: bold;
   font-size: 11px;
-  line-height: 13px;
+  line-height: 15px;
   text-transform: uppercase;
 }
 
@@ -200,7 +200,7 @@ header {
 }
 
 header nav {
-  max-width: 330px;
+  max-width: 390px;
   margin-right: 375px;
 }
 
@@ -290,7 +290,7 @@ header input {
           flex-grow: 1;
   min-width: 246px;
   min-height: 50px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 20px;
   padding: 0;
   padding-left: 20px;
   color: #fff;
@@ -340,6 +340,7 @@ header input {
   width: 200px;
   height: 62px;
   margin-right: 1.5rem;
+  margin-bottom: 20px;
   padding: 20px 30px;
   color: #cacaca;
   font-size: 12.8px;
@@ -381,9 +382,9 @@ header input {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  max-width: 320px;
+  max-width: 319px;
   margin-bottom: 39px;
-  padding: 21px 1.5rem;
+  padding: 18px 1.5rem;
   border-radius: 1.5rem;
 }
 
@@ -411,7 +412,7 @@ header input {
 
 .pricing-link {
   display: block;
-  margin-top: 48px;
+  margin-top: 40px;
   margin-bottom: 64px;
   padding: 21px 115px;
 }
@@ -441,7 +442,6 @@ header input {
 
 .news-item-image {
   min-width: 374px;
-  min-height: 186px;
 }
 
 .news-item-block {
@@ -499,7 +499,7 @@ header input {
 }
 
 .app-text {
-  width: 600px;
+  width: 590px;
   margin-top: 16px;
   padding: 0 5px;
 }
@@ -543,7 +543,7 @@ header input {
 
 .pv-footer {
   padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 .bg-gradient {
@@ -558,7 +558,7 @@ header input {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 3rem;
-  padding-top: 0;
+  padding-top: 12px;
 }
 
 .second-part-footer {
@@ -621,6 +621,9 @@ hr {
   h2 {
     font-size: 18px;
   }
+  .header-artist {
+    margin-top: 25px;
+  }
   .pricing-name {
     font-weight: bold;
     font-size: 16px;
@@ -660,6 +663,9 @@ hr {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
+  }
+  .news-item-image {
+    height: 186px;
   }
   .other-item:not(:nth-child(2)) {
     max-width: 137px;
