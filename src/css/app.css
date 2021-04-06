@@ -573,7 +573,7 @@ header input {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 3rem;
-  padding-top: 14px;
+  padding-top: 15px;
   padding-bottom: 26px;
 }
 
@@ -592,7 +592,7 @@ header input {
 
 hr {
   margin: 0;
-  border-bottom: 0px solid #E0E0E0;
+  border-bottom: 0px solid #cacaca;
 }
 
 .menu {
@@ -602,6 +602,10 @@ hr {
 .menu-point {
   margin-top: 16px;
   font-size: 16px;
+}
+
+.menu-point p {
+  color: #e0e0e0;
 }
 
 .menu-link {
@@ -730,7 +734,7 @@ hr {
   }
   .second-part-footer a {
     width: 100vw;
-    margin-right: 20px;
+    margin-right: 15px;
     margin-bottom: 16px;
   }
   .second-part-footer a:last-child {
