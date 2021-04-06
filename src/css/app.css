@@ -55,6 +55,11 @@ body {
   background-color: #08020D;
 }
 
+main {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 section {
   max-width: 1200px;
   margin: 0 auto;
@@ -277,8 +282,7 @@ header input {
 }
 
 .main-section {
-  padding-top: 100px;
-  padding-bottom: 200px;
+  padding-top: 0;
 }
 
 .main-section form {
@@ -424,7 +428,7 @@ header input {
 
 .pricing-value {
   margin: 0;
-  margin-top: 195px;
+  margin-top: 200px;
   font-size: 32px;
   text-align: center;
   text-transform: uppercase;
@@ -553,7 +557,7 @@ header input {
 
 .pv-footer {
   padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 .bg-gradient {
@@ -608,6 +612,10 @@ hr {
 
 .contacts img {
   vertical-align: middle;
+}
+
+.block {
+  display: block;
 }
 
 @media screen and (min-width: 1240px) {
@@ -671,10 +679,10 @@ hr {
 
 @media screen and (max-width: 415px) {
   nav {
-    margin-right: 0;
+    margin: 2px 0;
   }
   nav li {
-    width: 86px;
+    width: 87px;
   }
   input {
     -webkit-box-flex: 1;
