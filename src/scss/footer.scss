@@ -20,7 +20,7 @@
   grid-column-gap: 15px;
 
   margin-top: 2rem;
-  padding-top: 10px;
+  padding-top: 8px;
 }
 
 hr {
@@ -35,7 +35,13 @@ hr {
 }
 
 .menu-point {
-  margin-top: 15px;
+  margin-top: 16px;
+
+  font-size: 16px;
+}
+
+.social {
+  margin-top: 20px;
 
   font-size: 16px;
 }
@@ -56,6 +62,6 @@ hr {
   }
 }
 
-.block {
-  display: block;
+.inline-block {
+  display: inline-block;
 }

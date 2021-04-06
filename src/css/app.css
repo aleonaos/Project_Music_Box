@@ -384,6 +384,7 @@ header input {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   grid-column-gap: 50px;
+  margin-top: -2px;
 }
 
 .pricing-item {
@@ -581,7 +582,7 @@ header input {
           justify-content: flex-start;
   grid-column-gap: 15px;
   margin-top: 2rem;
-  padding-top: 10px;
+  padding-top: 8px;
 }
 
 hr {
@@ -595,7 +596,12 @@ hr {
 }
 
 .menu-point {
-  margin-top: 15px;
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.social {
+  margin-top: 20px;
   font-size: 16px;
 }
 
@@ -614,16 +620,13 @@ hr {
   vertical-align: middle;
 }
 
-.block {
-  display: block;
+.inline-block {
+  display: inline-block;
 }
 
 @media screen and (min-width: 1240px) {
   h1 {
     font-size: 60px;
-  }
-  h2 {
-    font-size: 38px;
   }
   .right-place {
     -webkit-box-ordinal-group: 3;
@@ -702,6 +705,9 @@ hr {
   .second-part-footer a {
     width: 100vw;
     margin-bottom: 16px;
+  }
+  .second-part-footer a:last-child {
+    margin-bottom: 0;
   }
   .menu {
     width: 100vw;

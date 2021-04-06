@@ -3,10 +3,6 @@
     font-size: $size-h1;
   }
 
-  h2 {
-    font-size: $size-h2;
-  }
-
   .right-place {
     order: 2;
   }
@@ -98,6 +94,10 @@
     a {
       width: 100vw;
       margin-bottom: 16px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
   
