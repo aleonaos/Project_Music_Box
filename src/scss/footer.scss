@@ -41,10 +41,6 @@ hr {
   margin-top: 16px;
 
   font-size: 16px;
-
-  p {
-    padding: 2px 0;
-  }
 }
 
 .social {
@@ -54,8 +50,8 @@ hr {
 }
 
 .light-gray {
-  display: inline-block;
-
+  display: inline;
+  
   color: $light-gray;
   text-decoration: none;
 }
@@ -71,10 +67,4 @@ hr {
   img {
     vertical-align: middle;
   }
-}
-
-.block {
-  display: block;
-
-  margin: 2px 0;
 }
