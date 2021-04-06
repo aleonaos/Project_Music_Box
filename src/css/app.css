@@ -417,7 +417,6 @@ header input {
 
 .pricing-name {
   font-weight: normal;
-  line-height: 1.87;
 }
 
 .pricing-link {
@@ -712,9 +711,6 @@ hr {
   }
   .pricing-item {
     padding: 18px 1.5rem;
-  }
-  .pricing-name {
-    line-height: 1.5;
   }
   .news-item-image {
     height: 186px;
