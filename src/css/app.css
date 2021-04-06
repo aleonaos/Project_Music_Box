@@ -573,8 +573,7 @@ header input {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 3rem;
-  padding-top: 15px;
-  padding-bottom: 26px;
+  padding-top: 0;
 }
 
 .second-part-footer {
@@ -592,11 +591,13 @@ header input {
 
 hr {
   margin: 0;
-  border-bottom: 0px solid #cacaca;
+  border-bottom: 0px solid #e0e0e0;
 }
 
 .menu {
   width: 270px;
+  margin-top: 15px;
+  margin-bottom: 26px;
 }
 
 .menu-point {
