@@ -7,7 +7,8 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   grid-column-gap: 50px;
-  margin-bottom: 40px;
+  margin-top: -4px;
+  margin-bottom: 39px;
 }
 
 .pricing-item {

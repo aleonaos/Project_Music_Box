@@ -384,7 +384,8 @@ header input {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   grid-column-gap: 50px;
-  margin-bottom: 40px;
+  margin-top: -4px;
+  margin-bottom: 39px;
 }
 
 .pricing-item {
@@ -608,7 +609,7 @@ hr {
 }
 
 .light-gray {
-  display: inline;
+  display: inline-block;
   color: #e0e0e0;
   text-decoration: none;
 }
@@ -629,10 +630,6 @@ hr {
 .block {
   display: block;
   margin: 2px 0;
-}
-
-.inline-block {
-  display: inline-block;
 }
 
 @media screen and (min-width: 1240px) {

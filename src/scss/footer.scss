@@ -50,7 +50,7 @@ hr {
 }
 
 .light-gray {
-  display: inline;
+  display: inline-block;
 
   color: $light-gray;
   text-decoration: none;
@@ -73,8 +73,4 @@ hr {
   display: block;
 
   margin: 2px 0;
-}
-
-.inline-block {
-  display: inline-block;
 }
