@@ -417,7 +417,6 @@ header input {
 
 .pricing-name {
   font-weight: normal;
-  line-height: 1.87;
 }
 
 .pricing-link {
@@ -447,7 +446,7 @@ header input {
 .item-footer {
   height: 57px;
   margin: 0;
-  margin-bottom: 48px;
+  margin-bottom: 45px;
   font-size: 12.8px;
   text-align: center;
 }
@@ -604,6 +603,11 @@ hr {
   font-size: 16px;
 }
 
+.menu-link {
+  height: 20px;
+  vertical-align: middle;
+}
+
 .social {
   margin-top: 14px;
   font-size: 16px;
@@ -611,7 +615,6 @@ hr {
 
 .light-gray {
   display: inline-block;
-  height: 20px;
   color: #e0e0e0;
   text-decoration: none;
 }
@@ -703,9 +706,6 @@ hr {
   }
   .pricing-item {
     padding: 18px 1.5rem;
-  }
-  .pricing-name {
-    line-height: 1.5;
   }
   .news-item-image {
     height: 186px;
