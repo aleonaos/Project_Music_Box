@@ -3,20 +3,22 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   grid-column-gap: 50px;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin-top: -2px;
   margin-bottom: 39px;
 }
 
 .pricing-item {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+
+  flex-grow: 1;
   max-width: 318px;
   padding: 26px 1.5rem;
+
   border-radius: 1.5rem;
 }
 
@@ -47,12 +49,14 @@
   margin-bottom: 64px;
   padding-top: 20px;
   padding-bottom: 20px;
+
   text-align: center;
 }
 
 .pricing-value {
   margin: 0;
   margin-top: 200px;
+
   font-size: 32px;
   text-align: center;
   text-transform: uppercase;
@@ -61,6 +65,7 @@
 .pricing-value span {
   display: inline-block;
   margin-right: 6px;
+
   font-size: 64px;
   line-height: 1em;
   vertical-align: top;
@@ -70,7 +75,9 @@
   height: 57px;
   margin: 0;
   margin-bottom: 40px;
+
   font-size: 12.8px;
   text-align: center;
 }
+
 /*# sourceMappingURL=pricing.css.map */

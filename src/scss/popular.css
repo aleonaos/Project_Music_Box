@@ -1,7 +1,8 @@
 .popular-track {
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+
+  justify-content: flex-start;
   width: 575px;
   margin-bottom: 25px;
 }
@@ -15,4 +16,5 @@
 .popular-track:nth-last-child(-n+2) {
   margin-bottom: 0;
 }
+
 /*# sourceMappingURL=popular.css.map */
