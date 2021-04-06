@@ -735,7 +735,10 @@ hr {
     margin-top: 15px;
   }
   .menu:not(:last-child) {
-    margin-bottom: 32px;
+    margin-bottom: 31px;
+  }
+  .menu:last-child {
+    margin-bottom: 27px;
   }
   .second-part-footer a {
     width: 100vw;
