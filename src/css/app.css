@@ -393,7 +393,7 @@ header input {
       -ms-flex-positive: 1;
           flex-grow: 1;
   max-width: 318px;
-  padding: 18px 1.5rem;
+  padding: 21px 1.5rem;
   border-radius: 1.5rem;
 }
 
@@ -417,6 +417,7 @@ header input {
 
 .pricing-name {
   font-weight: normal;
+  line-height: 1.87;
 }
 
 .pricing-link {
@@ -609,7 +610,8 @@ hr {
 }
 
 .light-gray {
-  display: inline;
+  display: inline-block;
+  height: 20px;
   color: #e0e0e0;
   text-decoration: none;
 }
@@ -625,6 +627,10 @@ hr {
 
 .contacts img {
   vertical-align: middle;
+}
+
+.block {
+  display: block;
 }
 
 @media screen and (min-width: 1240px) {
@@ -694,6 +700,12 @@ hr {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
+  }
+  .pricing-item {
+    padding: 18px 1.5rem;
+  }
+  .pricing-name {
+    line-height: 1.5;
   }
   .news-item-image {
     height: 186px;

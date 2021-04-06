@@ -50,8 +50,10 @@ hr {
 }
 
 .light-gray {
-  display: inline;
-  
+  display: inline-block;
+
+  height: 20px;
+
   color: $light-gray;
   text-decoration: none;
 }
@@ -67,4 +69,8 @@ hr {
   img {
     vertical-align: middle;
   }
+}
+
+.block {
+  display: block;
 }
