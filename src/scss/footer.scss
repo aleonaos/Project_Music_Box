@@ -21,6 +21,10 @@
 
   margin-top: 2rem;
   padding-top: 8px;
+
+  a {
+    padding: 0 2px;
+  }
 }
 
 hr {
@@ -76,4 +80,6 @@ hr {
 
 .block {
   display: block;
+
+  margin: 2px 0;
 }
