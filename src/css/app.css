@@ -384,7 +384,7 @@ header input {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   grid-column-gap: 50px;
-  margin-top: -4px;
+  margin-top: -2px;
   margin-bottom: 39px;
 }
 
@@ -603,8 +603,12 @@ hr {
   font-size: 16px;
 }
 
+.menu-point p {
+  padding: 1px 0;
+}
+
 .social {
-  margin-top: 20px;
+  margin-top: 14px;
   font-size: 16px;
 }
 
@@ -659,7 +663,7 @@ hr {
     margin-top: 25px;
   }
   .pricing-item:not(:last-child) {
-    margin-bottom: 48px;
+    margin-bottom: 46px;
   }
   .pricing-name {
     font-size: 16px;
