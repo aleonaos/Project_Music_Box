@@ -574,6 +574,7 @@ header input {
           justify-content: space-between;
   margin-bottom: 3rem;
   padding-top: 14px;
+  padding-bottom: 26px;
 }
 
 .second-part-footer {
@@ -596,7 +597,6 @@ hr {
 
 .menu {
   width: 270px;
-  margin-bottom: 26px;
 }
 
 .menu-point {
@@ -726,10 +726,11 @@ hr {
     width: 100vw;
   }
   .menu:not(:last-child) {
-    margin-bottom: 30px;
+    margin-bottom: 31px;
   }
   .second-part-footer a {
     width: 100vw;
+    margin-right: 20px;
     margin-bottom: 16px;
   }
   .second-part-footer a:last-child {
