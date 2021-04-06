@@ -393,7 +393,7 @@ header input {
       -ms-flex-positive: 1;
           flex-grow: 1;
   max-width: 318px;
-  padding: 20px 1.5rem;
+  padding: 18px 1.5rem;
   border-radius: 1.5rem;
 }
 
@@ -446,7 +446,7 @@ header input {
 .item-footer {
   height: 57px;
   margin: 0;
-  margin-bottom: 45px;
+  margin-bottom: 48px;
   font-size: 12.8px;
   text-align: center;
 }
@@ -604,7 +604,7 @@ hr {
 }
 
 .menu-point p {
-  padding: 1px 0;
+  padding: 2px 0;
 }
 
 .social {
