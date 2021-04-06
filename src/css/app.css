@@ -596,7 +596,7 @@ hr {
 
 .menu {
   width: 270px;
-  margin-top: 15px;
+  margin-top: 13px;
   margin-bottom: 26px;
 }
 
@@ -729,6 +729,9 @@ hr {
   }
   .menu {
     width: 100vw;
+  }
+  .menu:not(:first-child) {
+    margin-top: 0;
   }
   .menu:not(:last-child) {
     margin-bottom: 31px;
