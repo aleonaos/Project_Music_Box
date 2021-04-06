@@ -5,13 +5,13 @@
   grid-column-gap: 50px;
 
   margin-top: -2px;
+  margin-bottom: 40px;
 }
 
 .pricing-item {
   flex-grow: 1;
 
   max-width: 318px;
-  margin-bottom: 40px;
   padding: 20px 1.5rem;
 
   border-radius: 1.5rem;
@@ -37,7 +37,6 @@
 
 .pricing-name {
   font-weight: normal;
-  line-height: 1.87;
 }
 
 .pricing-link {

@@ -27,6 +27,10 @@
     margin-top: 25px;
   }
 
+  .pricing-item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
   .pricing-name {
     font-size: 16px;
     line-height: 1.5;
@@ -57,11 +61,8 @@
   .mt-50 {
     margin-top: 50px;
   }
-
-  .menu {
-    margin-bottom: 30px;
-  }
 }
+
 @media screen and (max-width: 415px) {
   nav {
     margin: 2px 0;
@@ -73,10 +74,6 @@
 
   input {
     flex-grow: 1;
-  }
-
-  .pricing-name {
-    line-height: 1.5;
   }
 
   .news-item-image {

@@ -385,6 +385,7 @@ header input {
       justify-content: space-around;
   grid-column-gap: 50px;
   margin-top: -2px;
+  margin-bottom: 40px;
 }
 
 .pricing-item {
@@ -392,7 +393,6 @@ header input {
       -ms-flex-positive: 1;
           flex-grow: 1;
   max-width: 318px;
-  margin-bottom: 40px;
   padding: 20px 1.5rem;
   border-radius: 1.5rem;
 }
@@ -417,7 +417,6 @@ header input {
 
 .pricing-name {
   font-weight: normal;
-  line-height: 1.87;
 }
 
 .pricing-link {
@@ -574,7 +573,7 @@ header input {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 3rem;
-  padding-top: 13px;
+  padding-top: 14px;
 }
 
 .second-part-footer {
@@ -593,6 +592,9 @@ hr {
 
 .menu {
   width: 270px;
+}
+
+.menu:not(:last-child) {
   margin-bottom: 26px;
 }
 
@@ -613,8 +615,12 @@ hr {
 }
 
 .contacts {
-  height: 21px;
-  margin-right: 24px;
+  display: inline-block;
+  height: 22px;
+}
+
+.contacts:not(:last-child) {
+  margin-right: 22px;
 }
 
 .contacts img {
@@ -623,6 +629,7 @@ hr {
 
 .block {
   display: block;
+  margin: 1px 0;
 }
 
 .inline-block {
@@ -655,6 +662,9 @@ hr {
   .header-artist {
     margin-top: 25px;
   }
+  .pricing-item:not(:last-child) {
+    margin-bottom: 40px;
+  }
   .pricing-name {
     font-size: 16px;
     line-height: 1.5;
@@ -680,9 +690,6 @@ hr {
   .mt-50 {
     margin-top: 50px;
   }
-  .menu {
-    margin-bottom: 30px;
-  }
 }
 
 @media screen and (max-width: 415px) {
@@ -696,9 +703,6 @@ hr {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
-  }
-  .pricing-name {
-    line-height: 1.5;
   }
   .news-item-image {
     height: 186px;
