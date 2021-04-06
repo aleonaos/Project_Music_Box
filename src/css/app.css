@@ -186,7 +186,7 @@ header {
 
 header nav {
   max-width: 390px;
-  margin-right: 375px;
+  margin-right: 440px;
 }
 
 header ul {
@@ -277,7 +277,7 @@ header input {
 }
 
 .main-section {
-  padding-top: 200px;
+  padding-top: 100px;
   padding-bottom: 200px;
 }
 
@@ -344,7 +344,6 @@ header input {
   width: 200px;
   height: 62px;
   margin-right: 1.5rem;
-  margin-bottom: 20px;
   padding: 20px 30px;
   color: #cacaca;
   font-size: 12.8px;
@@ -380,16 +379,16 @@ header input {
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-top: 2px;
+  grid-column-gap: 50px;
 }
 
 .pricing-item {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  max-width: 319px;
+  max-width: 318px;
   margin-bottom: 40px;
-  padding: 18px 1.5rem;
+  padding: 20px 1.5rem;
   border-radius: 1.5rem;
 }
 
@@ -418,7 +417,9 @@ header input {
 .pricing-link {
   margin-top: 40px;
   margin-bottom: 64px;
-  padding: 21px 105px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .pricing-value {
@@ -552,7 +553,7 @@ header input {
 
 .pv-footer {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
 .bg-gradient {
@@ -595,6 +596,7 @@ hr {
 }
 
 .light-gray {
+  display: inline;
   color: #e0e0e0;
   text-decoration: none;
 }
