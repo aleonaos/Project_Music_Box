@@ -384,7 +384,6 @@ header input {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   grid-column-gap: 50px;
-  margin-top: -2px;
   margin-bottom: 40px;
 }
 
@@ -437,7 +436,7 @@ header input {
 
 .pricing-value span {
   display: inline-block;
-  margin-right: 16px;
+  margin-right: 6px;
   font-size: 64px;
   line-height: 1em;
   vertical-align: top;
@@ -616,7 +615,7 @@ hr {
 
 .contacts {
   display: inline-block;
-  height: 22px;
+  height: 25px;
 }
 
 .contacts:not(:last-child) {
@@ -629,7 +628,7 @@ hr {
 
 .block {
   display: block;
-  margin: 1px 0;
+  margin: 2px 0;
 }
 
 .inline-block {
@@ -663,7 +662,7 @@ hr {
     margin-top: 25px;
   }
   .pricing-item:not(:last-child) {
-    margin-bottom: 40px;
+    margin-bottom: 48px;
   }
   .pricing-name {
     font-size: 16px;
@@ -723,6 +722,9 @@ hr {
   }
   .menu {
     width: 100vw;
+  }
+  .menu:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 /*# sourceMappingURL=app.css.map */
