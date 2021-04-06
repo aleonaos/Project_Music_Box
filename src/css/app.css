@@ -740,6 +740,9 @@ hr {
   .menu:last-child {
     margin-bottom: 25px;
   }
+  .second-part-footer {
+    padding-top: 10px;
+  }
   .second-part-footer a {
     width: 100vw;
     margin-right: 15px;
