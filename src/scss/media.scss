@@ -14,7 +14,7 @@
     padding-right: 20px;
     padding-left: 20px;
   }
-  
+
   h1 {
     font-size: $size-h1 / 2;
   }
@@ -46,12 +46,12 @@
 
   .news-header {
     margin-bottom: 16px;
-  
+
     font-size: 16px;
   }
 
   .form-description {
-    margin-top: 16px; 
+    margin-top: 16px;
   }
 
   .popular-track:nth-last-child(2) {
@@ -88,15 +88,15 @@
     height: 186px;
   }
 
-  .other-item:not(:nth-child(2)) {
-    max-width: 137px;
-  }
-
   .other-item {
     img {
       width: 137px;
       height: 137px;
     }
+  }
+
+  .other-item:not(:nth-child(2)) {
+    max-width: 137px;
   }
 
   .menu {
@@ -118,7 +118,7 @@
 
   .second-part-footer {
     padding-top: 9px;
-  
+
     a {
       width: 100vw;
       margin-right: 15px;

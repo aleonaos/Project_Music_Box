@@ -4,9 +4,9 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  grid-column-gap: 50px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  grid-column-gap: 50px;
   margin-top: -2px;
   margin-bottom: 39px;
 }

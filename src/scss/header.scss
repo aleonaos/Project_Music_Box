@@ -29,9 +29,9 @@ header {
       height: 15px;
 
       &:not(:last-child) {
-        margin-right: 24px;
-
         box-sizing: border-box;
+
+        margin-right: 24px;
       }
     }
   }
@@ -52,18 +52,17 @@ header {
     text-transform: uppercase;
 
     background-color: $dark-gray;
-    border-radius: 50px;
     border: none;
+    border-radius: 50px;
   }
 }
-
 
 .header-block {
   display: flex;
   flex-wrap: wrap;
+  grid-row-gap: 16px;
   align-items: center;
   justify-content: flex-start;
-  grid-row-gap: 16px;
 
   max-width: 1200px;
   margin: 0 auto;
@@ -78,7 +77,7 @@ header {
     width: 24px;
     height: 24px;
     margin-right: 16px; 
-  } 
+  }
 }
 
 .hidden {

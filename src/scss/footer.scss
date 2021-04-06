@@ -16,8 +16,8 @@
 }
 
 .second-part-footer {
-  justify-content: flex-start;
   grid-column-gap: 15px;
+  justify-content: flex-start;
 
   margin-top: 2rem;
   padding-top: 8px;
@@ -30,7 +30,7 @@
 hr {
   margin: 0;
 
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .menu {
@@ -51,6 +51,7 @@ hr {
 
 .menu-link {
   height: 20px;
+
   vertical-align: middle;
 }
 

@@ -1,6 +1,7 @@
 header {
   position: absolute;
   top: 25px;
+
   width: 1200px;
 }
 
@@ -17,4 +18,5 @@ header span {
 .hidden {
   visibility: hidden;
 }
+
 /*# sourceMappingURL=header.css.map */

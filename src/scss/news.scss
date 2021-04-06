@@ -1,6 +1,6 @@
 .news-item-image {
   min-width: 374px;
-} 
+}
 
 .news-item-block {
   width: 580px;
@@ -20,8 +20,8 @@
 }
 
 .news-author {
-  justify-content: flex-start;
   grid-column-gap: 16px;
+  justify-content: flex-start;
 
   margin-bottom: 48px;
 }
