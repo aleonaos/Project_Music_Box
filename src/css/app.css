@@ -135,6 +135,7 @@ header ul {
 .align-start {
   -webkit-box-align: start;
   -ms-flex-align: start;
+
   align-items: flex-start;
 }
 
@@ -745,7 +746,7 @@ header a:hover {
 
   .news-header {
     margin-bottom: 16px;
-  
+
     font-size: 16px;
   }
 
@@ -798,7 +799,7 @@ header a:hover {
   .other-item:not(:nth-child(2)) {
     max-width: 137px;
   }
-  
+
   .menu {
     width: 100vw;
     margin-top: 0;
