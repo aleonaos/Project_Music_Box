@@ -1,0 +1,15 @@
+.discography {
+  display: flex;
+  flex-wrap: wrap;
+  grid-row-gap: 25px;
+  grid-column-gap: 50px;
+}
+
+.discography-item {
+  max-width: 250px;
+
+  img {
+    width: 250px;
+    height: 250px;
+  }
+}

@@ -1,0 +1,35 @@
+$dark: #08020d;
+$gray: #cacaca;
+$light-gray: #e0e0e0;
+$dark-gray: #3c3b3d;
+$green: #34c176;
+$orange: #f89202;
+$purple: #5328a1;
+$red: #95390c;
+
+$main-size: 18px;
+$size-h1: 60px;
+$size-h2: 38px;
+$size-h3: 24px;
+
+%flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+%h-styles {
+  margin: 0;
+
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+%header-text {
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+}

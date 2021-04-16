@@ -1,0 +1,15 @@
+.other {
+  display: flex;
+  flex-wrap: wrap;
+  grid-row-gap: 25px;
+}
+
+.other-item {
+  max-width: 250px;
+
+  img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+  }
+}
