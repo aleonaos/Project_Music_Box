@@ -1,3 +1,5 @@
 ## Учебный проект "Портал Music Box"
 
-### Ссылка на реализацию проекта:  https://aleonaos.github.io/layout-designer-project-lvl2/
+Проект включает в себя две страницы музыкального портала "Music Box". Страницы являются адаптированными.
+
+### Ссылка на реализацию проекта:  https://aleonaos.github.io/music_box/
