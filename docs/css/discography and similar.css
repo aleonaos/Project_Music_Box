@@ -3,7 +3,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   grid-row-gap: 25px;
 }
 
@@ -16,4 +16,3 @@
   height: 250px;
   margin-bottom: 10px;
 }
-/*# sourceMappingURL=discography and similar.css.map */

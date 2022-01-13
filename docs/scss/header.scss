@@ -4,6 +4,7 @@ header {
   left: 0;
 
   width: 100vw;
+  height: 25px;
 
   span {
     @extend %header-text;
@@ -11,7 +12,7 @@ header {
 
   nav {
     max-width: 390px;
-    margin-right: 440px;
+    margin-right: 400px;
   }
 
   ul {
@@ -46,7 +47,8 @@ header {
   }
 
   input {
-    width: 228px;
+    min-height: 100%;
+    margin: 0;
     padding: 5px 10px;
 
     text-transform: uppercase;
