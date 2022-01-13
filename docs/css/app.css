@@ -134,6 +134,7 @@ span {
   color: #cacaca;
   font-size: 16px;
   text-decoration: none;
+  border: 1px solid #ffffff;
 }
 
 .align-start {
@@ -395,7 +396,7 @@ header input {
           flex-grow: 1;
   max-width: 318px;
   padding: 26px 1.5rem;
-  border-radius: 1.5rem;
+  border-radius: 1rem;
 }
 
 .bg-free {
@@ -486,12 +487,14 @@ header input {
 
 .btn-news {
   width: 75px;
+  padding: 16px 30px;
 }
 
-.bg-red {
+.btn-app {
   display: block;
   max-width: 61px;
   margin-top: 16px;
+  padding: 16px 40px;
   text-transform: capitalize;
   background: #95390c;
   border: none;
@@ -648,11 +651,6 @@ hr {
   h1 {
     font-size: 60px;
   }
-  .right-place {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
-  }
 }
 
 @media screen and (max-width: 1239px) {
@@ -697,6 +695,14 @@ hr {
   }
   .mt-50 {
     margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .right-place {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
   }
 }
 
