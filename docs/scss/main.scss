@@ -20,11 +20,17 @@
     margin: 0 auto;
 
     .btn-submit {
+      width: 100%;
+
       color: #fff;
       text-transform: uppercase;
 
       background: $green;
       border: none;
+    }
+
+    .btn-submit:hover {
+      background: $purple;
     }
   }
 }

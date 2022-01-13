@@ -311,10 +311,15 @@ header input {
 }
 
 .main-section form .btn-submit {
+  width: 100%;
   color: #fff;
   text-transform: uppercase;
   background: #34c176;
   border: none;
+}
+
+.main-section form .btn-submit:hover {
+  background: #5328a1;
 }
 
 .center {
