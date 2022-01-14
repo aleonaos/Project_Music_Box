@@ -577,6 +577,9 @@ header input {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   grid-row-gap: 25px;
 }
 
@@ -794,12 +797,12 @@ hr {
   .news-item-image {
     height: 186px;
   }
-  .other-item img {
-    width: 137px;
-    height: 137px;
+  .other-item {
+    width: 145px;
   }
-  .other-item:not(:nth-child(2)) {
-    max-width: 137px;
+  .other-item img {
+    width: 135px;
+    height: 135px;
   }
   .menu {
     width: 100vw;

@@ -121,14 +121,11 @@
   }
 
   .other-item {
+    width: 145px;
     img {
-      width: 137px;
-      height: 137px;
+      width: 135px;
+      height: 135px;
     }
-  }
-
-  .other-item:not(:nth-child(2)) {
-    max-width: 137px;
   }
 
   .menu {
