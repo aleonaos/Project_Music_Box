@@ -802,7 +802,7 @@ hr {
     height: 186px;
   }
   .other-item {
-    width: 145px;
+    max-width: 145px;
   }
   .other-item img {
     width: 135px;
