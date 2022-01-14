@@ -9,7 +9,10 @@
   border: none;
   border-radius: 32px;
 
+  transition: 0.3s linear;
+
   &:hover {
+    color: $dark;
     background: $orange;
   }
 }
