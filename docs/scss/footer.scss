@@ -24,6 +24,11 @@
 
   a {
     padding: 0 2px;
+
+    font-size: 16px;
+
+    color: $light-gray;
+    text-decoration: none;
   }
 }
 
@@ -43,29 +48,23 @@ hr {
   margin-top: 15px;
 
   font-size: 16px;
-
-  p {
-    color: $light-gray;
-  }
 }
 
-.menu-link {
+.footer-link {
+  display: inline-block;
+
   height: 20px;
 
   vertical-align: middle;
+
+  color: $light-gray;
+  text-decoration: none;
 }
 
 .social {
   margin-top: 14px;
 
   font-size: 16px;
-}
-
-.light-gray {
-  display: inline-block;
-
-  color: $light-gray;
-  text-decoration: none;
 }
 
 .contacts {

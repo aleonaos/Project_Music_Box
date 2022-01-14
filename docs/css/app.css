@@ -591,6 +591,9 @@ header input {
 
 .second-part-footer a {
   padding: 0 2px;
+  font-size: 16px;
+  color: #e0e0e0;
+  text-decoration: none;
 }
 
 hr {
@@ -609,24 +612,17 @@ hr {
   font-size: 16px;
 }
 
-.menu-point p {
-  color: #e0e0e0;
-}
-
-.menu-link {
+.footer-link {
+  display: inline-block;
   height: 20px;
   vertical-align: middle;
+  color: #e0e0e0;
+  text-decoration: none;
 }
 
 .social {
   margin-top: 14px;
   font-size: 16px;
-}
-
-.light-gray {
-  display: inline-block;
-  color: #e0e0e0;
-  text-decoration: none;
 }
 
 .contacts {
