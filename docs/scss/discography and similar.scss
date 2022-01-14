@@ -13,3 +13,11 @@
     margin-bottom: 10px;
   }
 }
+
+.other-cover:hover {
+  box-shadow: 0 14px 28px $dark-gray, 0 10px 10px $dark-gray;
+}
+
+.other-artist:hover {
+  filter: opacity(70%);
+}

@@ -67,11 +67,16 @@
   padding: 20px 30px;
 
   color: $gray;
-  font-size: 12.8px;
   line-height: 1.5;
   text-align: left;
 
   border: none;
+
+  transition: 0.3s linear;
+
+  &:hover {
+    box-shadow: 200px 0 0 0 rgba(117, 116, 116, 0.3) inset;
+  }
 
   img {
     width: 20px;
