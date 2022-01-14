@@ -327,6 +327,7 @@ header input {
   text-transform: uppercase;
   background: #34c176;
   border: none;
+  cursor: pointer;
   -webkit-transition: 0.3s linear;
   transition: 0.3s linear;
 }
