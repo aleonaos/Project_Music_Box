@@ -5,11 +5,13 @@
   margin-top: 16px;
   padding: 16px 40px;
 
-  text-transform: capitalize;
-
   background: $red;
   border: none;
   border-radius: 32px;
+
+  &:hover {
+    background: $orange;
+  }
 }
 
 .app-body {

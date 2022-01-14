@@ -103,6 +103,12 @@ li {
   list-style: none;
 }
 
+a {
+  font-size: 16px;
+  color: #cacaca;
+  text-decoration: none;
+}
+
 p {
   margin: 0;
   font-size: 16px;
@@ -111,6 +117,37 @@ p {
 span {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.link {
+  position: relative;
+}
+
+.link::after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-color: #3c3b3d;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+}
+
+.link:hover::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 2px;
+  background: #e0e0e0;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+  color: #3c3b3d;
 }
 
 .btn {
@@ -131,10 +168,13 @@ span {
 
 .more {
   display: block;
-  color: #cacaca;
   font-size: 16px;
-  text-decoration: none;
   border: 1px solid #ffffff;
+}
+
+.more:hover {
+  color: #08020d;
+  background: #cacaca;
 }
 
 .align-start {
@@ -178,6 +218,10 @@ span {
 .ph-40 {
   padding-right: 40px;
   padding-left: 40px;
+}
+
+.header-text {
+  font-size: 11px;
 }
 
 .small-text {
@@ -235,15 +279,6 @@ header ul li:not(:last-child) {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-right: 24px;
-}
-
-header a {
-  color: #cacaca;
-  text-decoration: none;
-}
-
-header a:hover {
-  color: #e0e0e0;
 }
 
 header input {
@@ -486,7 +521,7 @@ header input {
 }
 
 .btn-news {
-  width: 75px;
+  width: 80px;
   padding: 16px 30px;
 }
 
@@ -495,10 +530,13 @@ header input {
   max-width: 61px;
   margin-top: 16px;
   padding: 16px 40px;
-  text-transform: capitalize;
   background: #95390c;
   border: none;
   border-radius: 32px;
+}
+
+.btn-app:hover {
+  background: #f89202;
 }
 
 .app-body {
@@ -592,8 +630,6 @@ header input {
 .second-part-footer a {
   padding: 0 2px;
   font-size: 16px;
-  color: #e0e0e0;
-  text-decoration: none;
 }
 
 hr {
@@ -617,7 +653,10 @@ hr {
   height: 20px;
   vertical-align: middle;
   color: #e0e0e0;
-  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #cacaca;
 }
 
 .social {

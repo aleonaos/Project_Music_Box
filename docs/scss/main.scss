@@ -27,10 +27,10 @@
 
       background: $green;
       border: none;
-    }
 
-    .btn-submit:hover {
-      background: $purple;
+      &:hover {
+        background: $purple;
+      }
     }
   }
 }
