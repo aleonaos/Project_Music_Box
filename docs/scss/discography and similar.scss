@@ -1,8 +1,12 @@
 .other {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   grid-row-gap: 25px;
+}
+
+.similar-artists {
+  justify-content: center;
+  grid-column-gap: 50px;
 }
 
 .other-item {
